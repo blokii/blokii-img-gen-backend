@@ -21,6 +21,7 @@ exports.Unsplash = class Unsplash {
         query: data ? data.query : 'technology',
         page: data ? data.page : 1,
         perPage: data ? data.per_page : 6,
+        orderBy: 'latest',
         orientation: data ? data.orientation : 'landscape',
       }
       const results = await this.serverApi.search.getPhotos(opts)
