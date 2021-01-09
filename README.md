@@ -1,6 +1,6 @@
 # do-feathers
 
-> 
+>
 
 ## About
 
@@ -13,16 +13,16 @@ Getting up and running is as easy as 1, 2, 3.
 1. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
 2. Install your dependencies
 
-    ```
-    cd path/to/do-feathers
-    npm install
-    ```
+   ```
+   cd path/to/do-feathers
+   npm install
+   ```
 
 3. Start your app
 
-    ```
-    npm start
-    ```
+   ```
+   npm start
+   ```
 
 ## Testing
 
@@ -43,3 +43,7 @@ $ feathers help                           # Show all commands
 ## Help
 
 For more information on all the things you can do with Feathers visit [docs.feathersjs.com](http://docs.feathersjs.com).
+
+### Project Notes
+
+This project does not use authentication, but if it were to eventually implement authentication, the secret key would need to be changed since it is open source.

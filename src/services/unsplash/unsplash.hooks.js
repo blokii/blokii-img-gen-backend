@@ -1,4 +1,4 @@
-// Application hooks that run for every service
+const { authenticate } = require('@feathersjs/authentication').hooks
 
 module.exports = {
   before: {
