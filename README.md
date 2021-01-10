@@ -1,4 +1,4 @@
-# do-feathers
+# Blokii Image Maker
 
 >
 
@@ -44,6 +44,6 @@ $ feathers help                           # Show all commands
 
 For more information on all the things you can do with Feathers visit [docs.feathersjs.com](http://docs.feathersjs.com).
 
-### Project Notes
+### Blokii Image Maker Project Notes
 
 This project does not use authentication, but if it were to eventually implement authentication, the secret key would need to be changed since it is open source.

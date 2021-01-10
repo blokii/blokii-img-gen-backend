@@ -31,9 +31,9 @@ app.use(cors())
 app.use(compress())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
-app.use(favicon(path.join('public/spa', 'favicon.ico')))
+app.use(favicon(path.join('public', 'favicon.ico')))
 // Host the public folder
-app.use('/', express.static('public/spa'))
+app.use('/', express.static('public'))
 
 // Set up Plugins and providers
 app.configure(socketio())
