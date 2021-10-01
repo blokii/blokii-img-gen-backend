@@ -1,10 +1,29 @@
 # Blokii Image Maker
 
->
-
 ## About
 
 This project uses [Feathers](http://feathersjs.com). An open source web framework for building modern real-time applications.
+
+### Project Notes
+
+#### Unsplash API
+
+As per Unsplash's API Guidelines, this app requires an access key for using their API. This access key is retrieved as an environment variable that should be available at runtime. To learn more about creating an access key, see the [Unsplash Developers API Guidelines](https://unsplash.com/developers).
+
+### CRUD
+
+To demonstrate basic crud functionality, this project allows creating, listing, and deleting of images created to the server. The service framework used is [FeathersJS](https://docs.feathersjs.com/api/services.html).
+
+This project uses socket.io to communicate with the server. Though if using the rest implementation, the following available API endpoints would include the following:
+
+```
+GET      /unsplash (get images from unsplash, proxies a request)
+GET      /unsplash/track (sends a tracking request to unsplash per dev guidelines)
+GET      /images (retrieves images)
+GET      /images/:id (retrieves image by id)
+POST     /images (creates new record image)
+DELETE   /image/:id (delete image by id)
+```
 
 ## Getting Started
 
